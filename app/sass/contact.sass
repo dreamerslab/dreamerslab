@@ -1,0 +1,72 @@
+@import "lib/util.sass"
+@import "lib/btn.sass"
+
+#content h2
+  font-size: 34px
+
+.row
+  padding: 0 0 18px
+
+#email
+  padding: 0 0 40px
+
+#form
+  width: 460px
+
+  label
+    font-size: 24px
+    display: block
+
+  label.error
+    color: red
+    font-size: 16px
+
+  input
+    font-family: $font-base
+    border: none
+
+  input.text
+    @include box-round
+    @include box-sink( 0, 0, 10px, 0, #555555 )
+    background: #F7F7E9
+    font-size: 24px
+    padding: 3px 5px
+    border: 1px solid #cccccc\9
+
+  textarea
+    @include box-round( 5px )
+    @include box-sink( 0, 0, 15px, 0, #555555 )
+    font-family: $font-base
+    letter-spacing: 2px
+    color: #111
+    padding: 5px 15px
+    font-size: 24px
+    line-height: 1.6em
+    border: none
+    background: #F7F7E9
+    overflow: auto
+    width: 366px
+    height: 248px
+    border: 1px solid #cccccc\9
+
+  .btn
+    @include btn( 18px, 5px 8px )
+    @include select
+
+  .btn-down
+    @include btn-down
+
+#info
+  width: 460px
+  text-align: right
+
+  span
+    font-size: 24px
+    display: block
+
+  .row
+    padding: 0 0 18px
+
+#fb-comments
+  width: 800px
+  margin: 0 auto 30px

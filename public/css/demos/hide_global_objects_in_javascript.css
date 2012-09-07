@@ -1,0 +1,63 @@
+/* line 4, ../../../app/sass/demos/hide_global_objects_in_javascript.sass */
+#wrap {
+  width: 750px;
+}
+
+/* line 7, ../../../app/sass/demos/hide_global_objects_in_javascript.sass */
+#fire {
+  height: 30px;
+}
+
+/* line 10, ../../../app/sass/demos/hide_global_objects_in_javascript.sass */
+#click-me {
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  background-color: #eeeeee;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), color-stop(100%, #aaaaaa));
+  background: -moz-linear-gradient(top, #eeeeee, #aaaaaa 100%);
+  background: linear-gradient(top, #eeeeee, #aaaaaa 100%);
+  -pie-background: linear-gradient(#eeeeee, #aaaaaa);
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  font-family: Georgia;
+  font-weight: lighter;
+  color: #333333;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  filter: Shadow(Color=white, Direction=180, Strength=1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  float: left;
+  display: inline;
+}
+
+/* line 16, ../../../app/sass/demos/hide_global_objects_in_javascript.sass */
+#play-ground div {
+  margin: 0 0 10px;
+}
+/* line 18, ../../../app/sass/demos/hide_global_objects_in_javascript.sass */
+#play-ground li {
+  margin: 10px 0 10px 20px;
+}
+
+/* line 21, ../../../app/sass/demos/hide_global_objects_in_javascript.sass */
+.block {
+  padding: 20px 0;
+}

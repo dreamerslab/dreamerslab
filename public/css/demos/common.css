@@ -1,0 +1,77 @@
+/* line 4, ../../../app/sass/demos/common.sass */
+h1 {
+  font-size: 40px;
+  color: #333333;
+  margin: 0 0 10px;
+}
+
+/* line 9, ../../../app/sass/demos/common.sass */
+h2 {
+  font-size: 32px;
+  color: #555555;
+}
+
+/* line 13, ../../../app/sass/demos/common.sass */
+h3 {
+  font-size: 24px;
+}
+
+/* line 16, ../../../app/sass/demos/common.sass */
+h4, h5, h6 {
+  font-size: 20px;
+}
+
+/* line 19, ../../../app/sass/demos/common.sass */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 2em;
+}
+
+/* line 22, ../../../app/sass/demos/common.sass */
+li {
+  list-style-position: outside;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+/* line 27, ../../../app/sass/demos/common.sass */
+a {
+  color: #666666;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* line 32, ../../../app/sass/demos/common.sass */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 35, ../../../app/sass/demos/common.sass */
+p {
+  color: #999999;
+  text-indent: 30px;
+  padding: 0 0 20px;
+  letter-spacing: 2px;
+}
+
+/* line 41, ../../../app/sass/demos/common.sass */
+body {
+  font-family: Georgia;
+  color: #555555;
+  background-color: #f0f4f8;
+}
+
+/* line 46, ../../../app/sass/demos/common.sass */
+#wrap {
+  margin: 20px auto 0;
+  font-size: 18px;
+}
+
+/* line 50, ../../../app/sass/demos/common.sass */
+.spliter {
+  border-top: 1px solid #dddfe1;
+  border-bottom: 1px solid white;
+  padding: 0 !important;
+  height: 0 !important;
+  _line-height: 0 !important;
+  _overflow: hidden !important;
+}

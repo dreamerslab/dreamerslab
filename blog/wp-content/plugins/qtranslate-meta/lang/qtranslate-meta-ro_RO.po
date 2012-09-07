@@ -1,0 +1,128 @@
+# Copyright (C) 2010 John J. Camilleri
+# This file is distributed under the same license as the qTranslate META package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: qTranslate META 0.7.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/qtranslate-meta\n"
+"POT-Creation-Date: 2010-02-26 10:55+0000\n"
+"PO-Revision-Date: 2012-03-06 20:36+0200\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: download.php:31
+#: summary-page.php:55
+#: summary-page.php:61
+msgid "Post Title"
+msgstr "Post titlu"
+
+#: qtranslate-meta.php:36
+msgid "This plugin requires qTranslate to be installed and activated."
+msgstr "Acest plug-in necesită qTranslate să fie instalat și activat."
+
+#: qtranslate-meta.php:53
+#: qtranslate-meta.php:208
+msgid "Browser Title"
+msgstr "Titlul browser-ului"
+
+#: qtranslate-meta.php:54
+#: qtranslate-meta.php:212
+msgid "Keywords"
+msgstr "Cuvinte cheie"
+
+#: qtranslate-meta.php:55
+#: qtranslate-meta.php:216
+msgid "Description"
+msgstr "Descriere"
+
+#: qtranslate-meta.php:85
+#: qtranslate-meta.php:93
+msgid "Multilingual META"
+msgstr "META multilingve"
+
+#: qtranslate-meta.php:221
+msgid "characters. Most search engines use a maximum of 160 chars for the description."
+msgstr "de caractere. Cele mai multe motoare de căutare utilizează un maxim de 160 de caractere pentru descriere."
+
+#: settings-page.php:2
+msgid "qTranslate META Plugin — Settings"
+msgstr "qTranslate META Plugin — <span setările"
+
+#: settings-page.php:9
+msgid "Posts converted"
+msgstr "Posturi convertite"
+
+#: settings-page.php:16
+msgid "General"
+msgstr "Generale"
+
+#: settings-page.php:19
+msgid "Title suffix"
+msgstr "Titlul sufix"
+
+#: settings-page.php:22
+msgid "Appended to every page browser title"
+msgstr "Anexată la fiecare titlul paginii de browser"
+
+#: settings-page.php:31
+msgid "Save Changes"
+msgstr "Salvaţi modificările"
+
+#: summary-page.php:2
+msgid "Multilingual META Summary Page"
+msgstr "Multilingual META pagina rezumat"
+
+#: summary-page.php:4
+msgid "This table shows the META tags in each language set for each page in the site."
+msgstr "Acest tabel arată META tag-uri în fiecare limbă stabilite pentru fiecare pagină în site-ul."
+
+#: summary-page.php:5
+msgid "Hover the cursor over the flags to view the actual content."
+msgstr "Treceţi cursorul peste semnalizările pentru a vizualiza conţinutul real."
+
+#: summary-page.php:28
+msgid "View"
+msgstr "Vizualizare"
+
+#: summary-page.php:30
+msgid "Flags"
+msgstr "Steaguri"
+
+#: summary-page.php:31
+msgid "Text"
+msgstr "Text"
+
+#: summary-page.php:47
+msgid "Download as Excel Spreadsheet"
+msgstr "Descărcare ca foaie de calcul Excel"
+
+#: summary-page.php:71
+msgid "Edit Page"
+msgstr "Editare pagină"
+
+#. Plugin Name of an extension
+msgid "qTranslate META"
+msgstr "qTranslate META"
+
+#. Plugin URI of an extension
+msgid "http://johnjcamilleri.com/2010/01/qtranslate-and-multilingual-meta-tags/"
+msgstr "http://johnjcamilleri.com/2010/01/qtranslate-and-multilingual-meta-tags/"
+
+#. Description of an extension
+msgid "Multilingual support for META tags. Requires qTranslate."
+msgstr "Suport multilingv pentru META tag-uri. Necesită qTranslate."
+
+#. Author of an extension
+msgid "John J. Camilleri"
+msgstr "John J. Camilleri"
+
+#. Author URI of an extension
+msgid "http://johnjcamilleri.com"
+msgstr "http://johnjcamilleri.com"
+

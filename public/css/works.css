@@ -1,0 +1,112 @@
+/* line 4, ../../app/sass/works.sass */
+#content p {
+  padding: 0 0 10px;
+}
+/* line 7, ../../app/sass/works.sass */
+#content strong {
+  font-weight: normal;
+}
+/* line 10, ../../app/sass/works.sass */
+#content a {
+  text-decoration: none;
+}
+/* line 14, ../../app/sass/works.sass */
+#content .more a {
+  float: right;
+  display: inline;
+  padding: 0 8px;
+  margin: 0 0 0 4px;
+  text-decoration: underline;
+}
+
+/* line 20, ../../app/sass/works.sass */
+.list-block {
+  line-height: 1.8em;
+  font-size: 16px;
+}
+/* line 24, ../../app/sass/works.sass */
+.list-block h3, .list-block h4 {
+  padding: 0 0 20px;
+}
+/* line 27, ../../app/sass/works.sass */
+.list-block h3 {
+  color: #333333;
+}
+/* line 30, ../../app/sass/works.sass */
+.list-block h4 {
+  color: #999999;
+}
+/* line 34, ../../app/sass/works.sass */
+.list-block li.spliter {
+  _line-height: 0 !important;
+}
+
+/* line 37, ../../app/sass/works.sass */
+.list-item {
+  padding: 30px 0 30px;
+}
+
+/* line 40, ../../app/sass/works.sass */
+.gallery {
+  float: right;
+  display: inline;
+  width: 420px;
+}
+
+/* line 44, ../../app/sass/works.sass */
+.thumbnails {
+  height: 75px;
+}
+/* line 47, ../../app/sass/works.sass */
+.thumbnails img {
+  -webkit-box-shadow: 1px 1px 5px 0 #333333;
+  -moz-box-shadow: 1px 1px 5px 0 #333333;
+  box-shadow: 1px 1px 5px 0 #333333;
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+}
+/* line 50, ../../app/sass/works.sass */
+.thumbnails a {
+  float: left;
+  display: inline;
+  padding: 0 3px;
+}
+/* line 55, ../../app/sass/works.sass */
+.thumbnails a:hover img {
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+/* line 58, ../../app/sass/works.sass */
+.description {
+  float: left;
+  display: inline;
+  width: 500px;
+}
+
+/* line 63, ../../app/sass/works.sass */
+#open-source h2 {
+  font-size: 40px;
+}
+/* line 66, ../../app/sass/works.sass */
+#open-source .gallery {
+  width: 330px;
+}
+/* line 69, ../../app/sass/works.sass */
+#open-source .description {
+  width: 620px;
+}
+
+/* line 73, ../../app/sass/works.sass */
+.app-logo {
+  display: block;
+  margin: 80px auto 80px;
+}
+
+/* line 78, ../../app/sass/works.sass */
+.plugin-logo {
+  display: block;
+  margin: 50px auto;
+}

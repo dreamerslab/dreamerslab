@@ -1,0 +1,66 @@
+/* line 4, ../../../app/sass/demos/javascript_loose_coupling_with_jquery_queue_plugin.sass */
+#wrap {
+  width: 860px;
+}
+
+/* line 7, ../../../app/sass/demos/javascript_loose_coupling_with_jquery_queue_plugin.sass */
+#fn-desc {
+  margin: 0 0 40px;
+}
+/* line 10, ../../../app/sass/demos/javascript_loose_coupling_with_jquery_queue_plugin.sass */
+#fn-desc li {
+  margin: 10px 60px;
+  list-style-type: decimal;
+}
+
+/* line 14, ../../../app/sass/demos/javascript_loose_coupling_with_jquery_queue_plugin.sass */
+#play-ground {
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* line 18, ../../../app/sass/demos/javascript_loose_coupling_with_jquery_queue_plugin.sass */
+.block {
+  padding: 20px 0;
+}
+
+/* line 21, ../../../app/sass/demos/javascript_loose_coupling_with_jquery_queue_plugin.sass */
+.btn {
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  background-color: #eeeeee;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), color-stop(100%, #aaaaaa));
+  background: -moz-linear-gradient(top, #eeeeee, #aaaaaa 100%);
+  background: linear-gradient(top, #eeeeee, #aaaaaa 100%);
+  -pie-background: linear-gradient(#eeeeee, #aaaaaa);
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  font-family: Georgia;
+  font-weight: lighter;
+  color: #333333;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 5px 8px;
+  cursor: pointer;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  filter: Shadow(Color=white, Direction=180, Strength=1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  float: left;
+  display: inline;
+  margin: 0 15px 0 0;
+}

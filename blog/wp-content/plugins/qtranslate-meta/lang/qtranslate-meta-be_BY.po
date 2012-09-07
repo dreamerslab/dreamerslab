@@ -1,0 +1,130 @@
+# Translation of the WordPress plugin qTranslate META 0.7.1 by John J. Camilleri.
+# Copyright (C) 2010 John J. Camilleri
+# This file is distributed under the same license as the qTranslate META package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: qTranslate META\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/qtranslate-meta\n"
+"POT-Creation-Date: 2010-02-26 10:55+0000\n"
+"PO-Revision-Date: 2010-04-09 17:39+0300\n"
+"Last-Translator: FatCow <zhr@tut.by>\n"
+"Language-Team: Marcis G. <by.marcis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: download.php:31
+#: summary-page.php:55
+#: summary-page.php:61
+msgid "Post Title"
+msgstr "Назва паста"
+
+#: qtranslate-meta.php:36
+msgid "This plugin requires qTranslate to be installed and activated."
+msgstr "Гэта ўбудова ўсталёўкі і актививации qTranslate."
+
+#: qtranslate-meta.php:53
+#: qtranslate-meta.php:208
+msgid "Browser Title"
+msgstr "Назва браўзара"
+
+#: qtranslate-meta.php:54
+#: qtranslate-meta.php:212
+msgid "Keywords"
+msgstr "Ключавыя словы"
+
+#: qtranslate-meta.php:55
+#: qtranslate-meta.php:216
+msgid "Description"
+msgstr "Апісанне"
+
+#: qtranslate-meta.php:85
+#: qtranslate-meta.php:93
+msgid "Multilingual META"
+msgstr "Мультымоўны Мета"
+
+#: qtranslate-meta.php:221
+msgid "characters. Most search engines use a maximum of 160 chars for the description."
+msgstr "знакаў. Большасць пошукавых сістэм выкарыстоўвае максімум 160 знакаў для апісання."
+
+#: settings-page.php:2
+msgid "qTranslate META Plugin &mdash; Settings"
+msgstr "qTranslate META убудова &mdash; Налады"
+
+#: settings-page.php:9
+msgid "Posts converted"
+msgstr "Канвертаванне пастоў"
+
+#: settings-page.php:16
+msgid "General"
+msgstr "Галоўная"
+
+#: settings-page.php:19
+msgid "Title suffix"
+msgstr "Суфікс назвы"
+
+#: settings-page.php:22
+msgid "Appended to every page browser title"
+msgstr "У прыкладанні да кожнай старонкі заголовока браўзара"
+
+#: settings-page.php:31
+msgid "Save Changes"
+msgstr "Захаваць змены"
+
+#: summary-page.php:2
+msgid "Multilingual META Summary Page"
+msgstr "Multilingual META старонка Рэзюмэ "
+
+#: summary-page.php:4
+msgid "This table shows the META tags in each language set for each page in the site."
+msgstr "Гэта табліца паказвае, мета-тэгі для кожнай мовы, усталяваныя для кожнай старонкі сайта."
+
+#: summary-page.php:5
+msgid "Hover the cursor over the flags to view the actual content."
+msgstr "Навядзіце курсор на сцягі для прагляду змесціва."
+
+#: summary-page.php:28
+msgid "View"
+msgstr "Прагляд"
+
+#: summary-page.php:30
+msgid "Flags"
+msgstr "Сцягі"
+
+#: summary-page.php:31
+msgid "Text"
+msgstr "Тэкст"
+
+#: summary-page.php:47
+msgid "Download as Excel Spreadsheet"
+msgstr "Запампаваць як Excel Spreadsheet"
+
+#: summary-page.php:71
+msgid "Edit Page"
+msgstr "Рэдагаваць старонку"
+
+#. Plugin Name of an extension
+msgid "qTranslate META"
+msgstr "qTranslate МЕТА"
+
+#. Plugin URI of an extension
+msgid "http://johnjcamilleri.com/2010/01/qtranslate-and-multilingual-meta-tags/"
+msgstr "http://johnjcamilleri.com/2010/01/qtranslate-and-multilingual-meta-tags/"
+
+#. Description of an extension
+msgid "Multilingual support for META tags. Requires qTranslate."
+msgstr "Мультымоўная падтрымка для META тэгаў. Патрабуецца qTranslate."
+
+#. Author of an extension
+msgid "John J. Camilleri"
+msgstr "John J. Camilleri"
+
+#. Author URI of an extension
+msgid "http://johnjcamilleri.com"
+msgstr "http://johnjcamilleri.com"
+

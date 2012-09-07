@@ -1,0 +1,127 @@
+/* line 4, ../../../app/sass/common/base.sass */
+h1 {
+  font-size: 70px;
+}
+
+/* line 7, ../../../app/sass/common/base.sass */
+h2 {
+  font-size: 50px;
+}
+
+/* line 10, ../../../app/sass/common/base.sass */
+h3 {
+  font-size: 36px;
+}
+
+/* line 13, ../../../app/sass/common/base.sass */
+h4, h5, h6 {
+  font-size: 24px;
+}
+
+/* line 16, ../../../app/sass/common/base.sass */
+li {
+  list-style-position: outside;
+  list-style-image: none;
+  list-style-type: none;
+}
+
+/* line 21, ../../../app/sass/common/base.sass */
+a {
+  color: #999999;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* line 26, ../../../app/sass/common/base.sass */
+body {
+  font-family: Georgia;
+  font-size: 18px;
+  color: #555555;
+  line-height: 1em;
+  background-color: #f0f4f8;
+}
+
+/* line 33, ../../../app/sass/common/base.sass */
+#bg-wrap {
+  width: 100%;
+  height: 390px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* line 42, ../../../app/sass/common/base.sass */
+#bg {
+  -webkit-box-shadow: 0 0 20px 0 black;
+  -moz-box-shadow: 0 0 20px 0 black;
+  box-shadow: 0 0 20px 0 black;
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  background: url("/img/bg-body.gif") repeat transparent;
+  height: 370px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 51, ../../../app/sass/common/base.sass */
+#wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 55, ../../../app/sass/common/base.sass */
+#main {
+  width: 100%;
+}
+
+/* line 58, ../../../app/sass/common/base.sass */
+#content {
+  line-height: 2em;
+}
+/* line 61, ../../../app/sass/common/base.sass */
+#content h3, #content h4, #content h5, #content h6 {
+  font-weight: normal;
+  letter-spacing: 0;
+}
+/* line 65, ../../../app/sass/common/base.sass */
+#content h2 {
+  line-height: 1.1em;
+  color: #444444;
+  padding: 0 0 30px;
+  text-align: center;
+}
+/* line 71, ../../../app/sass/common/base.sass */
+#content p {
+  letter-spacing: 2px;
+  text-indent: 30px;
+  padding: 0 0 20px;
+}
+/* line 76, ../../../app/sass/common/base.sass */
+#content a {
+  position: relative;
+  color: #333333;
+  text-decoration: underline;
+}
+/* line 81, ../../../app/sass/common/base.sass */
+#content a:hover {
+  color: #0066cc;
+}
+
+/* line 84, ../../../app/sass/common/base.sass */
+#fb {
+  padding: 15px 0;
+}
+
+/* line 87, ../../../app/sass/common/base.sass */
+.spliter {
+  border-top: 1px solid #dddfe1;
+  border-bottom: 1px solid white;
+  padding: 0 !important;
+  height: 0 !important;
+  _line-height: 0 !important;
+  _overflow: hidden !important;
+}

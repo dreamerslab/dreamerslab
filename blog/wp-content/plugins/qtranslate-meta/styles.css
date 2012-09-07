@@ -1,0 +1,50 @@
+/* 
+	qTranslate META plugin
+	Stlyes for admin
+*/
+
+/* Table on summary page */
+
+table.qtrans_meta_summary {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+table.qtrans_meta_summary tr:hover td {
+	background:#EAF2FA;
+}
+table.qtrans_meta_summary td.page-name {
+	font-weight:bold;
+}
+
+table.qtrans_meta_summary img.present { opacity:0.6; }
+table.qtrans_meta_summary img.present:hover { opacity:1; }
+table.qtrans_meta_summary img.not-present { /* margin:0 1px; vertical-align:top; */ visibility:hidden; }
+
+
+/* Meta box on edit pages */
+
+div.qtrans_meta_language-switcher {
+	text-align:right;
+}
+
+table.qtrans_meta_table {
+	width:100%;
+	margin-top:-1em;
+}
+table.qtrans_meta_table th {
+	font-weight:normal;
+	padding-top:0.5em;
+	text-align:right;
+	vertical-align:top;
+	white-space:nowrap;
+}
+table.qtrans_meta_table td {
+	width:100%;
+}
+table.qtrans_meta_table td.heading {
+	height:2em;
+	vertical-align:top;
+}
+
+table.qtrans_meta_table input {
+}

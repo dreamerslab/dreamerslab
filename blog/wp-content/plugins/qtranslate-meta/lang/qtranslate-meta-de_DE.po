@@ -1,0 +1,131 @@
+# Translation of the WordPress plugin qTranslate META 0.7.1 by John J. Camilleri.
+# Copyright (C) 2010 John J. Camilleri
+# This file is distributed under the same license as the qTranslate META package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: qTranslate META 0.8.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/qtranslate-meta\n"
+"POT-Creation-Date: 2010-02-26 10:55+0000\n"
+"PO-Revision-Date: 2010-06-24 10:37+0100\n"
+"Last-Translator: Rian van Spaandonk <rian.vanspaandonk@pangaea.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: download.php:31
+#: summary-page.php:55
+#: summary-page.php:61
+msgid "Post Title"
+msgstr "Titel des Beitrags"
+
+#: qtranslate-meta.php:36
+msgid "This plugin requires qTranslate to be installed and activated."
+msgstr "Dieses Plugin erfordert die Installation und Aktivierung von qTranslate."
+
+#: qtranslate-meta.php:53
+#: qtranslate-meta.php:208
+msgid "Browser Title"
+msgstr "Browsertitel"
+
+#: qtranslate-meta.php:54
+#: qtranslate-meta.php:212
+msgid "Keywords"
+msgstr "Stichworte"
+
+#: qtranslate-meta.php:55
+#: qtranslate-meta.php:216
+msgid "Description"
+msgstr "Beschreibung"
+
+#: qtranslate-meta.php:85
+#: qtranslate-meta.php:93
+msgid "Multilingual META"
+msgstr "Multilingual META"
+
+#: qtranslate-meta.php:221
+msgid "characters. Most search engines use a maximum of 160 chars for the description."
+msgstr "Zeichen. Die meisten Suchmachinen verwenden f&uuml;r die Beschreibung maximal 160 Zeichen."
+
+#: settings-page.php:2
+msgid "qTranslate META Plugin &mdash; Settings"
+msgstr "qTranslate META Plugin &mdash; Einstellungen"
+
+#: settings-page.php:9
+msgid "Posts converted"
+msgstr "Konvertierte Nachrichte"
+
+#: settings-page.php:16
+msgid "General"
+msgstr "Allgemein"
+
+#: settings-page.php:19
+msgid "Title suffix"
+msgstr "Titelsuffix"
+
+#: settings-page.php:22
+msgid "Appended to every page browser title"
+msgstr "Hinzugef&uuml;gt zu jeder Seite Browsertitel"
+
+#: settings-page.php:31
+msgid "Save Changes"
+msgstr "&Auml;nderungen speichern"
+
+#: summary-page.php:2
+msgid "Multilingual META Summary Page"
+msgstr "Multilingual META Zusammenfassungsseite"
+
+#: summary-page.php:4
+msgid "This table shows the META tags in each language set for each page in the site."
+msgstr "Diese Tabelle zeigt die META-Tags in jedem Sprachsatz auf jeder Seite der Webseite."
+
+#: summary-page.php:5
+msgid "Hover the cursor over the flags to view the actual content."
+msgstr "Um den wirklichen Inhalt zu sehen, zeigen Sie auf die Kennzeichen."
+
+#: summary-page.php:28
+msgid "View"
+msgstr "Ansicht"
+
+#: summary-page.php:30
+msgid "Flags"
+msgstr "Kennzeichen"
+
+#: summary-page.php:31
+msgid "Text"
+msgstr "Text"
+
+#: summary-page.php:47
+msgid "Download as Excel Spreadsheet"
+msgstr "Als Excel Spreadsheet herunterladen"
+
+#: summary-page.php:71
+msgid "Edit Page"
+msgstr "Seite bearbeiten"
+
+#. Plugin Name of an extension
+msgid "qTranslate META"
+msgstr "qTranslate META"
+
+#. Plugin URI of an extension
+msgid "http://johnjcamilleri.com/2010/01/qtranslate-and-multilingual-meta-tags/"
+msgstr "http://johnjcamilleri.com/2010/01/qtranslate-and-multilingual-meta-tags/"
+
+#. Description of an extension
+msgid "Multilingual support for META tags. Requires qTranslate."
+msgstr "Mehrsprachiger Support f&uuml;r Meta-Tags. Erfordert qTranslate."
+
+#. Author of an extension
+msgid "John J. Camilleri"
+msgstr "John J. Camilleri"
+
+#. Author URI of an extension
+msgid "http://johnjcamilleri.com"
+msgstr "http://johnjcamilleri.com"
+

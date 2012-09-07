@@ -1,0 +1,81 @@
+@import "lib/util.sass"
+
+#content
+  p
+    padding: 0 0 10px
+
+  strong
+    font-weight: normal
+
+  a
+    text-decoration: none
+
+  .more
+    a
+      @include float-r
+      padding: 0 8px
+      margin: 0 0 0 4px
+      text-decoration: underline
+
+.list-block
+  line-height: 1.8em
+  font-size: 16px
+
+  h3, h4
+    padding: 0 0 20px
+
+  h3
+    color: #333333
+
+  h4
+    color: #999999
+
+  // for the stupid ie6 i have to add this to be sure the height is 0
+  li.spliter
+    _line-height: 0 !important
+
+.list-item
+  padding: 30px 0 30px
+
+.gallery
+  @include float-r
+  width: 420px
+
+.thumbnails
+  height: 75px
+
+  img
+    @include box-shadow( 1px, 1px, 5px, 0, #333333 )
+
+  a
+    @include float-l
+    padding: 0 3px
+
+  a:hover
+    img
+      @include opacity( 70 )
+
+.description
+  @include float-l
+  width: 500px
+
+#open-source
+  h2
+    font-size: 40px
+    
+  .gallery
+    width: 330px
+
+  .description
+    width: 620px
+
+// 405 x 300
+.app-logo
+  display: block
+  margin: 80px auto 80px
+
+// 260 X 200
+.plugin-logo
+  display: block
+  margin: 50px auto
+

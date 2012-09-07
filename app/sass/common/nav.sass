@@ -1,0 +1,88 @@
+@import "../lib/text.sass"
+@import "../lib/util.sass"
+@import "./sprite.sass"
+
+#nav
+  padding: 20px 0 0
+
+  li, span
+    @include float-l
+    @include select
+
+  a
+    height: 68px
+    display: block
+
+  a:hover
+    border-bottom: 15px #4DAAE8 solid
+
+  .selected
+    border-bottom: 15px #0066CC solid
+  
+  span
+    display: block
+    width: 100%
+    height: 68px
+    @include opacity
+
+.en #nav-about
+  width: 177px
+  margin-right: 78px
+  @include _sprite( $sprite, about-sink-en )
+
+.en #nav-works
+  width: 171px
+  margin-right: 85px
+  @include _sprite( $sprite, works-sink-en )
+
+.en #nav-contact
+  width: 215px
+  margin-right: 79px
+  @include _sprite( $sprite, contact-sink-en )
+
+.en #nav-blog
+  width: 155px
+  @include _sprite( $sprite, blog-sink-en )
+
+.tw #nav-about
+  width: 210px
+  margin-right: 72px
+  @include _sprite( $sprite, about-sink-tw )
+
+.tw #nav-works
+  width: 130px
+  margin-right: 74px
+  @include _sprite( $sprite, works-sink-tw )
+
+.tw #nav-contact
+  width: 217px
+  margin-right: 71px
+  @include _sprite( $sprite, contact-sink-tw )
+
+.tw #nav-blog
+  width: 186px
+  @include _sprite( $sprite, blog-sink-tw )
+  
+.en #nav-about.selected, .en #nav-about:hover
+  @include _sprite( $sprite, about-bugle-en )
+
+.en #nav-works.selected, .en #nav-works:hover
+  @include _sprite( $sprite, works-bugle-en )
+
+.en #nav-contact.selected, .en #nav-contact:hover
+  @include _sprite( $sprite, contact-bugle-en )
+
+.en #nav-blog.selected, .en #nav-blog:hover
+  @include _sprite( $sprite, blog-bugle-en )
+
+.tw #nav-about.selected, .tw #nav-about:hover
+  @include _sprite( $sprite, about-bugle-tw )
+
+.tw #nav-works.selected, .tw #nav-works:hover
+  @include _sprite( $sprite, works-bugle-tw )
+
+.tw #nav-contact.selected, .tw #nav-contact:hover
+  @include _sprite( $sprite, contact-bugle-tw )
+
+.tw #nav-blog.selected, .tw #nav-blog:hover
+  @include _sprite( $sprite, blog-bugle-tw )

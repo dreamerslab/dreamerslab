@@ -1,0 +1,11 @@
+2011-01-25  v1.2 Used the Roles and Capabilities system instead of User Level
+
+2010-10-21  v1.1
+            English corrections
+            Function cleanup
+            Source code cleanup
+            Moved various strings into functions
+            -Urda
+
+2010-09-25  v1.0
+            First public ver1.0

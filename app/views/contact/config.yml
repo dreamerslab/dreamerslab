@@ -1,0 +1,20 @@
+common:
+  title: DreamersLab - Feel free to contact us if you have any question :)
+
+  metas:
+    name:
+      keywords: DreamersLab, contact DreamersLab, contact DreamersLab for web apps
+      description: Feel free to contact us if you have any question, even just drop us a line to say hello :)
+
+  css:
+    site:
+#      - lib/jquery.msg
+      - contact
+
+  js:
+    site:
+      - lib/jquery.validate
+      - lib/jquery.form
+#      - lib/jquery.center
+#      - lib/jquery.msg
+      - contact

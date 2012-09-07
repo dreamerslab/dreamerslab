@@ -1,0 +1,57 @@
+/* line 3, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin_with_css3pie.sass */
+#wrap {
+  width: 700px;
+}
+
+/* line 6, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin_with_css3pie.sass */
+.block {
+  margin: 0 0 20px;
+}
+
+/* line 9, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin_with_css3pie.sass */
+.nav {
+  line-height: 20px;
+  font-size: 18px;
+  list-style: none;
+  height: 40px;
+  margin: 20px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 18, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin_with_css3pie.sass */
+.nav li {
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 24, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin_with_css3pie.sass */
+.nav a {
+  -pie-watch-ancestors: 1;
+  -webkit-background-clip: padding-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  -pie-lazy-init: true;
+  behavior: url(/PIE.htc);
+  padding: 8px;
+  margin: 0 8px 0 0;
+  display: block;
+  position: relative;
+  background: #aaaaaa;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* line 44, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin_with_css3pie.sass */
+.nav a:hover {
+  background: #777777;
+  color: white;
+}

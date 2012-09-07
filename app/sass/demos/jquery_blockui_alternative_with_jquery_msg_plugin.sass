@@ -1,0 +1,40 @@
+@import "../lib/util.sass"
+@import "../lib/btn.sass"
+
+h1
+  text-align : center
+
+#wrap
+  width: 740px
+
+.play-ground
+  margin: 0 0 20px
+
+.spacer
+  height: 40px
+
+.custom-theme .jquery-msg-content
+  border: 10px solid #333333
+  background: white
+  font-family: Monaco, 'Lucida Console', monospace
+
+.btn-wrap
+  text-align: center
+  margin: 0
+
+.btn-wrap span
+  font-weight: bolder
+  padding: 0 8px 0 0
+  cursor: pointer
+  text-decoration: underline
+
+.btn
+  @include btn( 16px, 5px 8px )
+  @include select
+  @include float-l
+  margin: 0 15px 0 0
+
+#jquery-msg-overlay
+  p
+    text-indent: 0
+    padding: 0

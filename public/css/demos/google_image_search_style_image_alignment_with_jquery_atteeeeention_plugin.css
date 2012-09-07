@@ -1,0 +1,21 @@
+/* line 1, ../../../app/sass/demos/google_image_search_style_image_alignment_with_jquery_atteeeeention_plugin.sass */
+#wrap {
+  margin: 20px 20px 0;
+}
+
+/* line 4, ../../../app/sass/demos/google_image_search_style_image_alignment_with_jquery_atteeeeention_plugin.sass */
+#controller {
+  width: 750px;
+  margin: 0 auto;
+}
+
+/* line 8, ../../../app/sass/demos/google_image_search_style_image_alignment_with_jquery_atteeeeention_plugin.sass */
+#spacer {
+  height: 30px;
+  padding: 20px;
+}
+
+/* line 12, ../../../app/sass/demos/google_image_search_style_image_alignment_with_jquery_atteeeeention_plugin.sass */
+.block {
+  padding: 20px;
+}

@@ -1,0 +1,71 @@
+/* line 3, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+label {
+  display: block;
+}
+
+/* line 6, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#wrap {
+  width: 700px;
+}
+
+/* line 9, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#play-ground {
+  width: 700px;
+  margin: 20px auto;
+}
+
+/* line 13, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+.block {
+  float: left;
+  display: inline;
+  width: 240px;
+}
+
+/* line 17, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#operation {
+  width: 140px;
+  height: 150px;
+  padding: 35px 50px 0 30px;
+  position: relative;
+}
+
+/* line 23, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#outer, #inner {
+  padding: 20px;
+  position: relative;
+}
+
+/* line 27, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#outer span, #inner span {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: white;
+}
+
+/* line 33, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#outer {
+  width: 100px;
+  background: black;
+}
+
+/* line 37, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#inner {
+  width: 30px;
+  background: #555555;
+  margin: 10px auto;
+}
+
+/* line 42, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#options {
+  padding: 0 0 20px;
+}
+/* line 45, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#options p {
+  padding: 0;
+}
+
+/* line 48, ../../../app/sass/demos/get_hidden_element_width_with_jquery_actual_plugin.sass */
+#display {
+  padding: 30px;
+}

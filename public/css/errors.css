@@ -1,0 +1,27 @@
+/* line 1, ../../app/sass/errors.sass */
+#content {
+  margin: 0 auto 80px;
+}
+/* line 4, ../../app/sass/errors.sass */
+#content h2 {
+  text-align: left;
+  font-size: 44px;
+  padding: 0 0 50px;
+}
+/* line 9, ../../app/sass/errors.sass */
+#content span {
+  display: block;
+}
+
+/* line 13, ../../app/sass/errors.sass */
+#missing {
+  font-size: 250px;
+  line-height: 300px;
+  text-align: center;
+}
+
+/* line 18, ../../app/sass/errors.sass */
+#oops {
+  font-size: 72px;
+  line-height: 150px;
+}

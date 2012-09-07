@@ -1,0 +1,46 @@
+@import "../lib/util.sass"
+
+#wrap
+  width: 700px
+
+.block
+  margin: 0 0 20px
+
+.nav
+  line-height: 20px
+  font-size: 18px
+  list-style: none
+  height: 40px
+  margin: 20px 0 0
+  padding: 0
+  border: 0
+
+.nav li
+  @include float-l
+  margin: 0
+  padding: 0
+  border: 0
+
+.nav a
+  -pie-watch-ancestors: 1
+  -webkit-background-clip: padding-box
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  -o-border-radius: 3px
+  -khtml-border-radius: 3px
+  -ms-border-radius: 3px
+  border-radius: 3px
+  -pie-lazy-init: true
+  behavior: url(/PIE.htc)
+  padding: 8px
+  margin: 0 8px 0 0
+  display: block
+  position: relative
+  background: #aaaaaa
+  color: white
+  text-decoration: none
+  font-weight: bolder
+
+.nav a:hover
+  background: #777777
+  color: white

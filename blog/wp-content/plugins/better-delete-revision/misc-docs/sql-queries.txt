@@ -1,0 +1,55 @@
+SQL NOTES
+--------------------------------------------------------------------------------
+
+function get_my_posts()
+LINE ~136
+
+"SELECT ID
+FROM ($wpdb->posts)
+WHERE `post_type` = 'post'";
+
+Translates to literal SQL Query:
+
+SELECT ID
+FROM DBPREFIX_wp_posts
+WHERE `post_type` = 'post'
+
+--------------------------------------------------------------------------------
+
+function get_my_revision()
+LINE ~147
+
+"SELECT `ID`,`post_date`,`post_title`,`post_modified`
+FROM ($wpdb->posts)
+WHERE `post_type` = 'revision'
+ORDER BY `ID` DESC";
+
+Translates to literal SQL Query:
+
+SELECT `ID` , `post_date` , `post_title` , `post_modified`
+FROM DBPREFIX_wp_posts
+WHERE `post_type` = 'revision'
+ORDER BY `ID` DESC ;
+
+--------------------------------------------------------------------------------
+
+function bdelete_revision_act()
+LINE ~191
+
+"DELETE a,b,c
+FROM $wpdb->posts a
+LEFT JOIN $wpdb->term_relationships b
+ON (a.ID = b.object_id)
+LEFT JOIN $wpdb->postmeta c
+ON (a.ID = c.post_id)
+WHERE a.post_type = 'revision'";
+
+Translates to *NON-DELETE* literal SQL Query:
+
+SELECT *
+FROM DBPREFIX_wp_posts a
+LEFT JOIN DBPREFIX_wp_term_relationships b ON ( a.ID = b.object_id )
+LEFT JOIN DBPREFIX_wp_postmeta c ON ( a.ID = c.post_id )
+WHERE a.post_type = 'revision';
+
+--------------------------------------------------------------------------------

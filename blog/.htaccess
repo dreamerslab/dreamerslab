@@ -1,0 +1,28 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+# STEALTH-LOGIN 
+RewriteRule ^_logout wp-login.php?action=logout&amp;_wpnonce=0b6e960d6e&stealth_out_key=vvy3zdsvqj3ju6ea1kdvgteazs [L]
+RewriteRule ^_login wp-login.php?stealth_in_key=ch0tnoljfsilhmc0eb666lw0mm&redirect_to=http://dreamerslab/blog/wp-admin/ [R,L]
+RewriteRule ^_admin wp-admin/?stealth_admin_key=bqca0e6rclml0l4qlhlzuuadsy [R,L]
+RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/wp-admin 
+RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/wp-login\.php 
+RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/_login 
+RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/_admin 
+RewriteCond %{QUERY_STRING} !^stealth_in_key=ch0tnoljfsilhmc0eb666lw0mm 
+RewriteCond %{QUERY_STRING} !^stealth_out_key=vvy3zdsvqj3ju6ea1kdvgteazs 
+RewriteCond %{QUERY_STRING} !^stealth_reg_key=l2teoicd56jimlesqidersirx3 
+RewriteCond %{QUERY_STRING} !^stealth_admin_key=bqca0e6rclml0l4qlhlzuuadsy 
+RewriteRule ^wp-login\.php http://dreamerslab.com/blog [L]
+RewriteCond %{QUERY_STRING} ^loggedout=true 
+RewriteRule ^wp-login\.php http://dreamerslab.com/blog [L]
+ 
+# END STEALTH-LOGIN
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+# END WordPress

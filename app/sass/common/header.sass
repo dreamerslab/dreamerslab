@@ -1,0 +1,25 @@
+@import "../lib/util.sass"
+@import "./sprite.sass"
+
+#header
+  position: relative
+  height: 370px
+  padding: 20px 0 0
+  overflow: hidden
+  @include _sprite( $sprite, header-bg, 80px )
+
+  h1
+    height: 240px
+    width: 800px
+    margin: 0 auto
+    @include _sprite( $sprite, header-banner )
+
+#home
+  @include opacity
+  position: absolute
+  top: 60px
+  left: 80px
+  z-index: 10
+  display: block
+  width: 800px
+  height: 180px

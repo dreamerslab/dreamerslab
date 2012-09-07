@@ -1,0 +1,34 @@
+/* line 4, ../../../app/sass/common/header.sass */
+#header {
+  position: relative;
+  height: 370px;
+  padding: 20px 0 0;
+  overflow: hidden;
+  background: url('/img/sprite-s4603adcd52.png') no-repeat 80px -1056px;
+  _-pie-background: url('/img/sprite-s4603adcd52.png') no-repeat 80px -1056px;
+  _behavior: url(/PIE.htc);
+}
+/* line 11, ../../../app/sass/common/header.sass */
+#header h1 {
+  height: 240px;
+  width: 800px;
+  margin: 0 auto;
+  background: url('/img/sprite-s4603adcd52.png') no-repeat 0 -816px;
+  _-pie-background: url('/img/sprite-s4603adcd52.png') no-repeat 0 -816px;
+  _behavior: url(/PIE.htc);
+}
+
+/* line 17, ../../../app/sass/common/header.sass */
+#home {
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  z-index: 10;
+  display: block;
+  width: 800px;
+  height: 180px;
+}

@@ -1,0 +1,17 @@
+- General
+    * Clean up code to fit within an 80-character margin limit. Not only doe
+    this assit with various code editors, it forces the programmer to keep the
+    code clean and effecient!
+    * Move strings into a constant file, for easier updating and tracking.
+    * Create a CSS file in charge of handling styles for look and feel.
+    
+- Internationalization
+    * Needs to be done correctly, some code is using 'echo', other code is using
+      the _e() calls from Wordpress. Either Internationalization needs to be
+      implemented, or yank it all together for the time being.
+
+- SQL Related
+    * Add sometime of documentation explaining each and every SQL query
+    * Possibly Move SQL queries into abstracted file?
+    * Clean up SQL (ID vs `ID`)
+    * Support for Wordpress MU

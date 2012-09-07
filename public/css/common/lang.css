@@ -1,0 +1,29 @@
+/* line 4, ../../../app/sass/common/lang.sass */
+#lang {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #cccccc;
+}
+/* line 12, ../../../app/sass/common/lang.sass */
+#lang span {
+  text-decoration: underline;
+  padding: 0 3px;
+}
+/* line 16, ../../../app/sass/common/lang.sass */
+#lang a {
+  text-decoration: none;
+  color: #cccccc;
+}
+/* line 20, ../../../app/sass/common/lang.sass */
+#lang a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 24, ../../../app/sass/common/lang.sass */
+.chinese {
+  font-family: Sans-Serif;
+}

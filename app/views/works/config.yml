@@ -1,0 +1,19 @@
+common:
+  title: DreamersLab - The followings are projects we involved
+
+  metas:
+    name:
+      keywords: macflickr, jquery.preload, jquery.actual, jquery.secret, jquery.queue, jquery.center, jquery.atteeeeention, jquery.msg, codeigniter view
+      description: We build kick ass browser apps! Our first app MacFlickr is coming soon. With MacFlickr you can have a Mac Desktop environment to play with your Flickr photos. You can open multiple windows to browse or edit. It supports drag & drop, hotkeys and more!
+
+  css:
+    site:
+      - lib/jquery.fancybox
+      - works
+
+  js:
+    site:
+      - lib/jquery.mousewheel
+      - lib/jquery.fancybox
+      - common/show_demo
+      - works

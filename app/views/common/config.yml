@@ -1,0 +1,108 @@
+has_layout: true
+
+layout: default
+
+#layouts
+default:
+  title: DreamersLab - No Boundaries No Limitation.
+
+  metas:
+    https:
+      content-type: text/html; charset=utf-8
+      content-language: en-US
+      cache-control: no-cache
+      pragma: no-cache
+      expires: -1
+      cache-control: no-store
+
+    name:
+      google-site-verification: gJ03bx5CirK3eKJJR0Rsco_9lczerTcW9DRzL_lZ-bU
+      keywords:  DreamersLab, web applications, web apps, browser applications, browser apps
+      description: We build kick ass browser apps!
+      robots: index, follow
+
+  css:
+    site:
+      # delete msg later
+      - lib/jquery.msg
+      - common/reset
+      - common/util
+      - common/tabs
+      - common/base
+      - common/header
+      - common/lang
+      - common/nav
+      - common/sub_nav
+      - common/footer
+
+  js:
+    cdn:
+#      do not upgrade to 1.5.x, it will break validation plugin
+      - https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min
+      - https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min
+
+    site:
+      - lib/jquery.secret
+      - lib/jquery.bbq
+      - lib/jquery.actual
+      - lib/jquery.preload
+      # delete center & msg later
+      - lib/jquery.center
+      - lib/jquery.msg
+      - common/common
+      - lib/google.analytics
+
+
+demo:
+  metas:
+    https:
+      content-type: text/html; charset=utf-8
+      content-language: en-US
+
+    name:
+      google-site-verification: gJ03bx5CirK3eKJJR0Rsco_9lczerTcW9DRzL_lZ-bU
+      robots: index, follow
+
+  css:
+    site:
+      - common/reset
+      - common/util
+      - common/footer
+      - demos/common
+
+  js:
+    cdn:
+      - http://platform.twitter.com/widgets
+
+    site:
+      - lib/google.analytics
+      - lib/google.plus
+
+
+error:
+  metas:
+    https:
+      content-type: text/html; charset=utf-8
+      content-language: en-US
+
+    name:
+      robots: noindex, nofollow
+
+
+  css:
+    site:
+      - common/reset
+      - common/util
+      - common/base
+      - common/header
+      - common/nav
+      - common/footer
+      - errors
+  js:
+    cdn:
+#      do not upgrade to 1.5.x, it will break validation plugin
+      - https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min
+
+    site:
+      - lib/jquery.actual
+      - lib/google.analytics

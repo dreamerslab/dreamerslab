@@ -1,0 +1,21 @@
+.DS_Store
+Thumbs.db
+.sass-cache/*
+cache/*
+app/cache/*
+app/logs/*
+public/cache/*
+
+# hyper-cache
+# blog/wp-content/advanced-cache.php
+blog/wp-content/cache/hyper-cache/*
+
+# db cache reload
+blog/wp-content/tmp/*
+
+blog/wp-content/plugins/all-in-one-seo-pack/all_in_one_seo_pack.log
+
+# configs
+app/config/*
+blog/wp-config.php
+

@@ -1,0 +1,23 @@
+Description:
+
+Better Delete Revision is based on the old "Delete Revision" plugin
+but it is compatible with the latest version of Wordpress (3.0.1) with improved
+features. It not only deletes redundant revisions of posts from your Wordpress
+Database, it also deletes other database content related to each revision such
+meta information, tags, relationships, and more. Your current published,
+scheduled, and draft posts are never touched by this plugin! This plugin can
+also perform optimizations on your Wordpress database. With optimization and old
+revision removal this plugin will keep your database lighter and smaller
+throughout use. Removing old revisions and database optimizations is one of the
+best things you can do to your Wordpress blog to keep it running as fast as it
+can.
+
+Post Revisions are a feature introduced in Wordpress 2.6. Whenever you or
+Wordpress saves a post or a page, a revision is automatically created and stored
+in your Wordpress database. Each additional revision will slowly increase the
+size of your database. If you save a post or page multiple times, your number of
+revisions will greatly increase overtime. For example, if you have 100 posts and
+each post has 10 revisions you could be storing up to 1,000 copies of older
+data! The Better Delete Revision plugin is your #1 choice to quickly and easily
+removing revision from your Wordpress database. Try it out today to see what a
+lighter and smaller Wordpress database can do for you!

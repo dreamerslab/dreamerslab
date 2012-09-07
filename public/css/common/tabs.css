@@ -1,0 +1,20 @@
+/* line 2, ../../../app/sass/common/tabs.sass */
+.ui-tabs-nav li {
+  float: left;
+  display: inline;
+}
+/* line 6, ../../../app/sass/common/tabs.sass */
+.ui-tabs-nav a {
+  display: block;
+  text-align: center;
+}
+
+/* line 10, ../../../app/sass/common/tabs.sass */
+.ui-tabs-panel {
+  display: block;
+}
+
+/* line 13, ../../../app/sass/common/tabs.sass */
+.ui-tabs-hide {
+  display: none;
+}

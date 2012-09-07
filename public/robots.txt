@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /blog/wp-admin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/

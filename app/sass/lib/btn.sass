@@ -1,0 +1,20 @@
+@import "util.sass"
+@import "font.sass"
+@import "text.sass"
+
+@mixin btn( $size: 14px, $padding: 5px 8px )
+  @include box-round
+  @include box-shadow
+  @include box-gradient( #eeeeee, #aaaaaa )
+  font-family: $font-base
+  font-weight: lighter
+  color: #333333
+  font-size: $size
+  line-height: $size
+  padding: $padding
+  cursor: pointer
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8)
+  filter: Shadow(Color=#ffffff, Direction=180, Strength=1)
+
+@mixin btn-down( $size: 14px, $padding: 5px 8px )
+  @include box-sink( 0, 0, 10px, 3px, #555555 )
