@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Copy this script to $HOME and run it
 
 path=/srv/www/dreamerslab.com
@@ -10,11 +9,9 @@ git clone git@github.com:dreamerslab/dreamerslab.git $tmp
 echo '...done!'
 echo ''
 
-echo 'Removing development files...'
-sudo rm $tmp/README.md
-sudo rm $tmp/config.rb
-sudo rm -fr $tmp/docs
-sudo rm -fr $tmp/app/sass
+echo 'Cloning configs...'
+cp -R configs/dreamerslab/ci $tmp/app/config
+cp configs/dreamerslab/wp/wp-config.php $tmp/blog/wp-config.php
 echo '...done!'
 echo ''
 
