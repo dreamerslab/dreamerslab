@@ -4,7 +4,7 @@ Plugin Name: Smart Youtube PRO
 Plugin URI: http://www.prelovac.com/vladimir/wordpress-plugins/smart-youtube
 Description: Insert YouTube videos in posts, comments and RSS feeds with ease and full customization.
 Author: Vladimir Prelovac
-Version: 4.1.6
+Version: 4.1.8
 Author URI: http://www.prelovac.com/vladimir/
 
 
@@ -332,7 +332,7 @@ class SmartYouTube_PRO {
 <link rel="stylesheet" type="text/css" href="' . $this->plugin_url . '/styleyt.css" />';
 		
 		$imgpath = $this->plugin_url.'/i';
-		$actionurl = $_SERVER['REQUEST_URI'];
+		$actionurl = stripslashes(htmlentities(strip_tags($_SERVER['REQUEST_URI'])));
 		$nonce = wp_create_nonce( 'smart-youtube' );
 		$example = htmlentities( '<div style="float:left;margin-right: 10px;">{video}</div>' );
 		
@@ -563,7 +563,7 @@ class SmartYouTube_PRO {
 		}
 		
 		$imgpath = $this->plugin_url . '/i';
-		$actionurl = $_SERVER['REQUEST_URI'];
+		$actionurl = stripslashes(htmlentities(strip_tags($_SERVER['REQUEST_URI'])));
 		
 		$this->options = $this->get_options();
 	?>
@@ -612,7 +612,7 @@ class SmartYouTube_PRO {
 		
 		$upd_msg = "";
 		
-		$actionurl = $_SERVER['REQUEST_URI'];
+		$actionurl = stripslashes(htmlentities(strip_tags($_SERVER['REQUEST_URI'])));
 		$nonce = wp_create_nonce( 'smart-youtube' );
 		
 		$lic_msg = '<p>Welcome to ' . __( 'Smart YouTube PRO', 'smart-youtube' ) . '.</p>';
@@ -666,7 +666,7 @@ class SmartYouTube_PRO {
 		
 		$context = $side ? 'side' : 'post';
 		
-		preg_match_all( "/((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?youtube\.com\/watch(\?v\=|\/v\/|#!v=)([a-zA-Z0-9\-\_]{11})([^<\s]*))|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?youtu\.be\/([a-zA-Z0-9\-\_]{11}))|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?metacafe\.com\/watch\/([a-zA-Z0-9\-\_]{7})\/([^<^\/\s]*)([\/])?)|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?vimeo\.com\/([a-zA-Z0-9\-\_]{8})([\/])?)|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?liveleak\.com\/view(\?i\=)([a-zA-Z0-9\-\_]*))|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?facebook\.com\/video\/video.php\?v\=([a-zA-Z0-9\-\_]*))|((http(vp|vhp)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?youtube\.com\/(view_play_list\?p\=|playlist\?list\=)([a-zA-Z0-9\-\_]{18})([^<\s]*))/", $the_content, $matches, PREG_SET_ORDER );
+		preg_match_all( "/((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?youtube\.com\/watch(\?v\=|\/v\/|#!v=)([a-zA-Z0-9\-\_]{11})([^<\s]*))|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?youtu\.be\/([a-zA-Z0-9\-\_]{11}))|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?metacafe\.com\/watch\/([a-zA-Z0-9\-\_]{7})\/([^<^\/\s]*)([\/])?)|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?vimeo\.com\/([a-zA-Z0-9\-\_]{8})([\/])?)|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?liveleak\.com\/view(\?i\=)([a-zA-Z0-9\-\_]*))|((http(v|vh|vhd)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?facebook\.com\/video\/video.php\?v\=([a-zA-Z0-9\-\_]*))|((http(vp|vhp)?:\/\/)?([a-zA-Z0-9\-\_]+\.|)?youtube\.com\/(view_play_list\?p\=|playlist\?list\=)([a-zA-Z0-9\-\_]{18,34})([^<\s]*))/", $the_content, $matches, PREG_SET_ORDER );
 		
 		foreach ( $matches as $match ) {
 			if ( $match[1] != '' ) {

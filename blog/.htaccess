@@ -4,17 +4,17 @@ RewriteEngine On
 RewriteBase /blog/
 RewriteRule ^index\.php$ - [L]
 # STEALTH-LOGIN 
-RewriteRule ^_logout wp-login.php?action=logout&amp;_wpnonce=0b6e960d6e&stealth_out_key=vvy3zdsvqj3ju6ea1kdvgteazs [L]
-RewriteRule ^_login wp-login.php?stealth_in_key=ch0tnoljfsilhmc0eb666lw0mm&redirect_to=http://dreamerslab/blog/wp-admin/ [R,L]
-RewriteRule ^_admin wp-admin/?stealth_admin_key=bqca0e6rclml0l4qlhlzuuadsy [R,L]
+RewriteRule ^_logout wp-login.php?action=logout&amp;_wpnonce=5a51cbe087&stealth_out_key=id4rqrdjhely5kp4n6zhw5r2b2 [L]
+RewriteRule ^_wala wp-login.php?stealth_in_key=tqyolfwt6ouc1qxvivt6g0vp2a&redirect_to=http://dreamerslab.com/blog/wp-admin/ [R,L]
+RewriteRule ^_admin wp-admin/?stealth_admin_key=yf5t0wz1gkrt1d60evyo3ck0pi [R,L]
 RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/wp-admin 
 RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/wp-login\.php 
-RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/_login 
+RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/_wala 
 RewriteCond %{HTTP_REFERER} !^http://dreamerslab.com/blog/_admin 
-RewriteCond %{QUERY_STRING} !^stealth_in_key=ch0tnoljfsilhmc0eb666lw0mm 
-RewriteCond %{QUERY_STRING} !^stealth_out_key=vvy3zdsvqj3ju6ea1kdvgteazs 
-RewriteCond %{QUERY_STRING} !^stealth_reg_key=l2teoicd56jimlesqidersirx3 
-RewriteCond %{QUERY_STRING} !^stealth_admin_key=bqca0e6rclml0l4qlhlzuuadsy 
+RewriteCond %{QUERY_STRING} !^stealth_in_key=tqyolfwt6ouc1qxvivt6g0vp2a 
+RewriteCond %{QUERY_STRING} !^stealth_out_key=id4rqrdjhely5kp4n6zhw5r2b2 
+RewriteCond %{QUERY_STRING} !^stealth_reg_key=5s1a0mns3wgij42x2ico06bnbt 
+RewriteCond %{QUERY_STRING} !^stealth_admin_key=yf5t0wz1gkrt1d60evyo3ck0pi 
 RewriteRule ^wp-login\.php http://dreamerslab.com/blog [L]
 RewriteCond %{QUERY_STRING} ^loggedout=true 
 RewriteRule ^wp-login\.php http://dreamerslab.com/blog [L]

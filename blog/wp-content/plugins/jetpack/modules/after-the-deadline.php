@@ -2,7 +2,7 @@
 /**
  * Module Name: Spelling and Grammar
  * Module Description: Improve your spelling, style, and grammar with the <a href="http://www.afterthedeadline.com/">After&nbsp;the&nbsp;Deadline</a> Proofreading service.
- * Sort Order: 1
+ * Sort Order: 6
  * First Introduced: 1.1
  */
  
@@ -14,7 +14,7 @@ function AtD_load() {
 }
 
 function AtD_configuration_load() {
-	wp_safe_redirect( admin_url( 'profile.php#atd' ) );
+	wp_safe_redirect( get_edit_profile_url( get_current_user_id() ) . '#atd' );
 	exit;	
 }
 

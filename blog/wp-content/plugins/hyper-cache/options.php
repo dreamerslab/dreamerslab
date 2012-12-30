@@ -64,6 +64,20 @@ else
 
 ?>
 <style>
+/* Admin header */
+#satollo-header {
+  text-align: left;
+  background-color: #f4f4f4;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+#satollo-header a {
+    margin-right: 15px;
+}
+
 .hints {
     border: 1px solid #aaf;
     background-color: #fafaff;
@@ -86,6 +100,22 @@ else
 </style>
 
 <div class="wrap">
+    
+<div id="satollo-header">
+    <a href="http://www.satollo.net/plugins/hyper-cache" target="_blank">Get Help</a>
+    <a href="http://www.satollo.net/forums" target="_blank">Forum</a>
+
+    <form style="display: inline; margin: 0;" action="http://www.satollo.net/wp-content/plugins/newsletter/do/subscribe.php" method="post" target="_blank">
+        Subscribe to satollo.net <input type="email" name="ne" required placeholder="Your email">
+        <input type="hidden" name="nr" value="hyper-cache">
+        <input type="submit" value="Go">
+    </form>
+
+    <a href="https://www.facebook.com/satollo.net" target="_blank"><img style="vertical-align: bottom" src="http://www.satollo.net/images/facebook.png"></a>
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RJB428Z5KJPR4" target="_blank"><img style="vertical-align: bottom" src="http://www.satollo.net/images/donate.png"></a>
+    <a href="http://www.satollo.net/donations" target="_blank">Even <b>1$</b> helps: read more</a>
+</div>
 
 <?php if (!defined('WP_CACHE') || !WP_CACHE) { ?>
 <div class="error">
@@ -102,8 +132,6 @@ else
   <strong>Quentin</strong> (<a href="http://www.tradpress.fr" target="_blank">TradPress</a>) for French translation. 
   <strong>Mckryak</strong> for Russian translation. Tommy Tung alias Ragnarok for Chineese and Twaineese translations. And many others to be added.
 </p>
-
-<?php include dirname(__FILE__) . '/header.php'; ?>
 
 <?php
     if ($error)

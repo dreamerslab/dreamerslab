@@ -1,7 +1,7 @@
 === Hyper Cache ===
 Tags: cache,chaching,speed,performance,super cache,wp cache,optimization,staticization
 Requires at least: 2.5
-Tested up to: 3.3.1
+Tested up to: 3.5
 Stable tag: trunk
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2545483
 Contributors: satollo,momo360modena

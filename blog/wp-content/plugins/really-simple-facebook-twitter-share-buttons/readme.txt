@@ -1,56 +1,68 @@
 === Really simple Facebook Twitter share buttons ===
 Contributors: whiletrue
 Donate link: http://www.whiletrue.it/
-Tags: facebook, twitter, facebook share, twitter share, facebook share button, twitter share button, linkedin, google +1, +1, pinterest, google buzz, buzz, digg, flattr, stumbleupon, hyves, links, post, page, mail, email, reddit, tipy, shortcode
+Tags: facebook, twitter, facebook share, twitter share, facebook share button, twitter share button, linkedin, google +1, +1, pinterest, google buzz, buzz, digg, flattr, stumbleupon, hyves, links, post, page, mail, email, reddit, tipy, tumblr, shortcode
 Requires at least: 2.9+
-Tested up to: 3.4.1
-Stable tag: 2.5.3
+Tested up to: 3.4.2
+Stable tag: 2.5.11
 
-Puts Facebook, Twitter, LinkedIn, Google "+1", Pinterest and other share buttons of your choice above or below your posts.
+Puts Facebook, Twitter, LinkedIn, Google "+1", Pinterest, Tumblr and other share buttons of your choice above or below your posts.
 
 == Description ==
 This plugin shows Facebook, Twitter, LinkedIn, Google "+1", Pinterest and other popular share buttons above or below your posts.
 Easy customization of active buttons and position in the Settings menu.
 
+In contrast to several other sharing plugin, this one aims to use only original code provided by any social network.
+There is no other service in the middle, you are not required to register or get a key to use it. Enjoy!
+
 Facebook Like and Twitter Share buttons are loaded by default. 
-Other buttons, including Digg, Facebook Send, Flattr, LinkedIn, Google "+1", Pinterest, Google Buzz, Stumbleupon, Hyves, Email, Reddit, Tipy and Buffer can be added through the `Settings->Really simple share` menu.
+Other buttons, including Digg, Facebook Send, Flattr, LinkedIn, Google "+1", Pinterest, Google Buzz, Stumbleupon, Hyves, Email, Reddit, Tipy, Tumblr and Buffer can be added through the `Settings->Really simple share` menu.
 
 Please be careful when selecting the `Show buttons in these pages` options : it can interact badly with other slide/fade/carousel/sidebar active plugins.
 
+= Shortcode =
+
 If you want to place the active buttons only in selected posts, use the [really_simple_share] shortcode.
+
+If you want to place only one share button, add the *button* attribute to the shortcode, e.g.:
+
+* [really_simple_share button="facebook_like"]
+* [really_simple_share button="twitter"]
+* [really_simple_share button="linkedin"]
+* [really_simple_share button="pinterest"] (only displays if there is at least one picture in the post or page)
+* [really_simple_share button="google1"]
+* [really_simple_share button="digg"]
+* [really_simple_share button="stumbleupon"]
+* [really_simple_share button="reddit"]
+* [really_simple_share button="flattr"]
+* [really_simple_share button="tumblr"]
+* [really_simple_share button="facebook_share"]
+* and so on...
+
+Please note that in order to place single share buttons, they have to be active in the plugin settings page.
+
+= Selective disable =
 
 If you want to hide the share buttons inside selected posts, set a "really_simple_share_disable" custom field with value "yes".
 
-For more informations: http://www.whiletrue.it/en/projects/wordpress/22-really-simple-facebook-twitter-share-buttons-per-wordpress.html
+= News =
 
 *New* in version 2.5:
 
-* Buffer button (basic support: no twitter user mention, no image support)
-* CSS Style improvements
-* Optional related Twitter usernames (comma separated) added to the follow list
-* Facebook Share button removal because of dropped support by Facebook 
+* Shortcode single button options 
+* Pinterest multiple image selector
+* New buttons: Buffer and Tumblr
+* Fixes and code cleaning, as always 
 
-*New* in version 2.0 - 2.4:
+= Reference =
 
-* Pinterest button (basic support: only shows if there is some media, links to the thumbnail or to the first media attachment)
-* Language basic support for some buttons
-* More compact and effective Settings page
-* Possibility to put some text beside the buttons
-* Speed improvements and possibility to put the scripts at the bottom of the page
-* Button arbitrary positioning via drag&drop
-* Arbitrary spacing for every button
-* Wordpress link customization (default permalink and shortlink available)
-* Email button label
-* Facebook share button counter customization
-* New option to disable buttons on excerpts
+For more informations on this plugin: [www.whiletrue.it](http://www.whiletrue.it/en/projects/wordpress/22-really-simple-facebook-twitter-share-buttons-per-wordpress.html "www.whiletrue.it")
 
 Do you like this plugin? Give a chance to our other works:
 
 * [Most and Least Read Posts](http://www.whiletrue.it/en/projects/wordpress/29-most-and-least-read-posts-widget-per-wordpress.html "Most and Least Read Posts")
-* [Random Tweet Widget](http://www.whiletrue.it/en/projects/wordpress/33-random-tweet-widget-per-wordpress.html "Random Tweet Widget")
+* [Tilted Tag Cloud Widget](http://www.whiletrue.it/en/projects/wordpress/36-tilted-tag-cloud-widget-per-wordpress.html "Tilted Tag Cloud Widget")
 * [Reading Time](http://www.whiletrue.it/en/projects/wordpress/17-reading-time-per-wordpress.html "Reading Time")
-* [Really Simple Twitter Feed Widget](http://www.whiletrue.it/en/projects/wordpress/25-really-simple-twitter-feed-widget-per-wordpress.html "Really Simple Twitter Feed Widget")
-* [Tilted Twitter Cloud Widget](http://www.whiletrue.it/en/projects/wordpress/26-tilted-twitter-cloud-widget-per-wordpress.html "Tilted Twitter Cloud Widget")
 
 == Installation ==
 Best is to install directly from WordPress. If manual installation is required, please make sure to put all of the plugin files in a folder named `really-simple-facebook-twitter-share-buttons` (not two nested folders) in the plugin directory, then activate the plugin through the `Plugins` menu in WordPress.
@@ -58,8 +70,8 @@ Best is to install directly from WordPress. If manual installation is required, 
 == Frequently Asked Questions ==
 
 = What's the difference between Facebook Like and Share buttons? =
-Facebook Like's behaviour is similar to the old (now removed) Facebook Share: it is a counter and if you click it a story is published inside your Wall on Facebook.
-On 18th July 2012 Facebook dropped support for the (long time deprecated) Share button, so this button has been removed from the plugin.
+Facebook Like is the official Button actively supported by Facebook.
+On 18th July 2012 Facebook dropped support for the (old and long time deprecated) Share button, so this button has been removed from the plugin and replaced with an externali link with no counter.
 
 = Why users can't choose which image to share when using Facebook Like button ? =
 This is an automated Facebook behaviour: clicking Facebook Like the user can't choose each time which image to share, 
@@ -89,7 +101,43 @@ We'll see!
 1. Sample content, activating the Facebook Share and Twitter buttons  
 2. Options available in the Settings menu 
 
+
 == Changelog ==
+
+= 2.5.11 =
+* Added: Facebook Share button text customization
+
+= 2.5.10 =
+* Fixed: php code notices
+
+= 2.5.9 =
+* Changed: different file inclusion code
+* Fixed: Facebook Like button width fix
+* Fixed: "Missing Title Tags" error solved for the PinIt image selection iframe
+
+= 2.5.8 =
+* Added: shortcode single button options 
+* Changed: screenshots moved outside, reducing the size of the plugin and allowing for faster updates
+* Changed: separate images folder, for plugin structure cleaning
+
+= 2.5.7 =
+* Changed: Pinterest multiple image selector made optional (doesn't work in some environments)
+
+= 2.5.6 =
+* Added: Pinterest multiple image selector (thanks Stephen Baugh)
+* Changed: Google Buzz button removed (Google dropped support to it)
+* Fixed: apply shortcode to content before adding the buttons (thanks Stephen Baugh)
+* Fixed: Force https protocol whenever possible
+* Fixed: better style file inclusion and small code cleaning
+
+= 2.5.5 =
+* Fixed: Email button url cleaning
+* Fixed: Better special characters in url handling
+* Fixed: Facebook Like foreign languages support
+
+= 2.5.4 =
+* Added: Tumblr button (basic support: no display option)
+* Added: Facebook Share button back again in a new limited version (no counter, no style), facing its dropped support by Facebook
 
 = 2.5.3 =
 * Changed: Facebook Share button removed (Facebook dropped support to it)
